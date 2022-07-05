@@ -54,3 +54,16 @@ int main(void)
 	printf("%d\n", r);
 	return (0);
 }
+/**
+ * main - check the last digit of an integer
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int r;
+	r = print_last_digit(98);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
+}
