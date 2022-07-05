@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 #include <limits.h>
 /**
@@ -38,5 +39,18 @@ int main(void)
 		r *= -1;
 	_putchar(r + '0');
 	_putchar('\n');
+	return (0);
+}
+/**
+ * main - check for absolute value of an integer
+ *
+ * Return: always 0 
+ */
+int main(void)
+{
+	int r;
+	r = _abs(-1);
+	
+	printf("%d\n", r);
 	return (0);
 }
