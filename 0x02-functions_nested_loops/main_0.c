@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  *
  * test_isalpha - Test the _isalpha function
@@ -20,5 +21,22 @@ void test_isalpha(int n)
 int main(void)
 {
 	test_isalpha('H');
+	return (0);
+}
+/**
+ * main - check the sign of numbers
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int r;
+	
+	r = print_sign(98);
+	
+	if (r < 0)
+		r *= -1;
+	_putchar(r + '0');
+	_putchar('\n');
 	return (0);
 }
