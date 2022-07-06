@@ -68,6 +68,16 @@ int main(void)
 	return (0);
 }
 /**
+ * main - prints n times table
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	print_times_table(2);
+	return (0);
+}
+/**
  * main - prints all natural numbers from n to 98
  *
  * Return: always 0
