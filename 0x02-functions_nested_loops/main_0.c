@@ -77,3 +77,13 @@ int main(void)
 	jack_bauer();
 	return (0);
 }
+/**
+ * main - prints the 9 times table
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	times_table();
+	return (0);
+}
