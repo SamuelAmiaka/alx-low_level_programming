@@ -75,9 +75,25 @@ int main(void)
 int main(void)
 {
 	print_times_table(2);
-	_putchar('\n');
+	return (0);
+}
+/**
+ * main - print n times table
+ *
+ * Return: always 0
+ */
+int main(void)                                                                                                                        
+{
 	print_times_table(10);
-	_putchar('\n');
+	return (0);
+}
+/**
+ * main - prints n times table
+ *
+ * Return: always 0
+ */
+int main(void)
+{
 	print_times_table(13);
 	return (0);
 }
