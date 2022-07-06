@@ -67,3 +67,13 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+/**
+ * main - prints every minute of Jack Bauer
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	jack_bauer();
+	return (0);
+}
