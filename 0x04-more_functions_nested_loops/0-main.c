@@ -39,6 +39,16 @@ int main(void)
 	return (0);
 }
 /**
+ * main - prints numbers from 0 to 9
+ * 
+ * Return: Always 0
+ */
+int main(void)
+{
+	print_most_numbers();
+	return (0);
+}
+/**
  * main - checks for a digit from 0 through 9
  *
  * Return: Always 0
