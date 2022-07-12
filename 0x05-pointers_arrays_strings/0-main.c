@@ -60,6 +60,20 @@ int main(void)
 	return (0);
 }
 /**
+ * rev_string - reverses a string
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char s[10] = "My School";
+
+	printf("%s\n", s);
+	rev_string(s);
+	printf("%s\n", s);
+	return (0);
+}
+/**
  * _puts - prints a string to stdout
  *
  * Return: always 0
