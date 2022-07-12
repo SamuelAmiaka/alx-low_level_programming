@@ -60,6 +60,19 @@ int main(void)
 	return (0);
 }
 /**
+ * puts_half - prints half of a string
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char *str;
+
+	str = "0123456789";
+	puts_half(str);
+	return (0);
+}
+/**
  * puts2 - print one character out of 2 of a tring
  *
  * Return: always 0
