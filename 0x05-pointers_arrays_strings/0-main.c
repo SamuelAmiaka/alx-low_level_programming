@@ -47,3 +47,14 @@ int main(void)
 	printf("%d\n", len);
 	return (0);
 }
+/**
+ * _puts - prints a string to stdout
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
+}
