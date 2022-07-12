@@ -60,6 +60,21 @@ int main(void)
 	return (0);
 }
 /**
+ * *_strcpy - copies the string pointed to by src
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char s1[98];
+	char *ptr;
+
+	ptr = _strcpy(s1, "First, solve the problem. Then, write the code\n");
+	printf("%s", s1);
+	printf("%s", ptr);
+	return (0);
+}
+/**
  * print_array - prints n elements of an array of integers
  *
  * Return: always 0
