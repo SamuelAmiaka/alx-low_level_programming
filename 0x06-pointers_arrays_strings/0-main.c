@@ -20,6 +20,25 @@ int main(void)
 	return (0);
 }
 /**
+ * print_number - prints an integer
+ * 
+ * Return: always 0
+ */
+int main(void)
+{
+	print_number(98);
+	_putchar('\n');
+	print_number(402);
+	_putchar('\n');
+	print_number(1024);
+	_putchar('\n');
+	print_number(0);
+	_putchar('\n');
+	print_number(-98);
+	_putchar('\n');
+	return (0);
+}
+/**
  * reverse_array- reverses an array of integers
  * @a: an array of integers
  * @n: the number of elements to swap
