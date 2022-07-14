@@ -43,6 +43,32 @@ void print_array(int *a, int n)
 	printf("\n");
 }
 /**
+ * rot13 - encodes a string in rot13
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char s[] = "ROT13 (\"rotate by 13 places\", sometimes hyphenated ROT-13) is a simple letter substitution cipher.\n";
+	char *p;
+
+	p = rot13(s);
+	printf("%s", p);
+	printf("------------------------------------\n");
+	printf("%s", s);
+	printf("------------------------------------\n");
+	p = rot13(s);
+	printf("%s", p);
+	printf("------------------------------------\n");
+	printf("%s", s);
+	printf("------------------------------------\n");
+	p = rot13(s);
+	printf("%s", p);
+	printf("------------------------------------\n");
+	printf("%s", s);
+	return (0);
+}
+/**
  * leet - encodes a string in 1337
  *
  * Return: always 0
