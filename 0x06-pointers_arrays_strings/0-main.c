@@ -58,21 +58,6 @@ int main(void)
 	return (0);
 }
 /**
- * cap_string - capitalize all words in a string
- *
- * Return: always 0
- */
-int main(void)
-{
-	char str[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
-	char *ptr;
-
-	ptr = cap_string(str);
-	printf("%s", ptr);
-	printf("%s", str);
-	return (0);
-}
-/**
  * string_toupper - changes all lowercase leters of a string
  * to uppercase
  *
