@@ -43,6 +43,22 @@ void print_array(int *a, int n)
 	printf("\n");
 }
 /**
+ * string_toupper - changes all lowercase leters of a string
+ * to uppercase
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	char str[] = "Look up!\n";
+	char *ptr;
+
+	ptr = string_toupper(str);
+	printf("%s", ptr);
+	printf("%s", str);
+	return (0);
+}
+/**
  * reverse_array - reverses an array of integers
  *
  * Return: always 0
