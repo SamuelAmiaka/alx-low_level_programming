@@ -174,6 +174,21 @@ int main(void)
 	return (0);
 }
 /**
+ * set_string - sets the value of a pointer to a char
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char *s0 = "Bob Dylan";
+	char *s1 = "Robert Allen";
+
+	printf("%s, %s\n", s0, s1);
+	set_string(&s1, s0);
+	printf("%s, %s\n", s0, s1);
+	return (0);
+}
+/**
  * *_strchr - locates a character in a string
  *
  * Return: always 0
