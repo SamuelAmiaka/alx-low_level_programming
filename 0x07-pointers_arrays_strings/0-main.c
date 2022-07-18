@@ -85,3 +85,21 @@ int main(void)
 	simple_print_buffer(buffer, 98);
 	return (0);
 }
+/**
+ * *_strchr - locates a character in a string
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	char *s = "hello";
+	char *f;
+
+	f = _strchr(s, 'l');
+
+	if (f != NULL)
+	{
+		printf("%s\n", f);
+	}
+	return (0);
+}
