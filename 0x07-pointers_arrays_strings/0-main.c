@@ -70,6 +70,21 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	printf("\n");
 }
 /**
+ * *_strspn - gets the length of a prefix substring
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	char *s = "hello, world";
+	char *f = "oleh";
+	unsigned int n;
+
+	n = _strspn(s, f);
+	printf("%u\n", n);
+	return (0);
+}
+/**
  * *_memcpy - copies memory area
  *
  * Return: always 0
